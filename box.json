@@ -1,7 +1,7 @@
 {
     "name":"ContentBox IP Camera Jpeg Save and Display Widget Module",
-    "version":"1.1.0",
-    "location":"gpickin/cbcms-BABIPCameraJPEGSaveAndDisplay#v1.1.0",
+    "version":"1.1.1",
+    "location":"gpickin/cbcms-BABIPCameraJPEGSaveAndDisplay#v1.1.1",
     "author":"Gavin Pickin",
     "homepage":"https://github.com/gpickin/cbcms-BABIPCameraJPEGSaveAndDisplay",
     "documentation":"https://github.com/gpickin/cbcms-BABIPCameraJPEGSaveAndDisplay",
@@ -10,17 +10,17 @@
         "URL":"https://github.com/gpickin/cbcms-BABIPCameraJPEGSaveAndDisplay"
     },
     "bugs":"https://github.com/gpickin/cbcms-BABIPCameraJPEGSaveAndDisplay/issues",
-    "slug":"cbcms-BABTwitterEmbed",
+    "slug":"cbcms-BABIPCameraJPEGSaveAndDisplay",
     "shortDescription":"Customizable ContentBox IP Camera Jpeg Save and Display Widget Module for Contentbox 3",
     "instructions":"https://github.com/gpickin/cbcms-BABIPCameraJPEGSaveAndDisplay",
     "type":"contentbox-modules",
     "keywords":[
-        "Twitter",
-        "Widget",
-        "Embed",
-        "Timeline",
-        "Social",
-        "Social Media"
+        "IP Camera",
+        "Camera",
+        "Photo",
+        "Live",
+        "Feed",
+        "Live Feed"
     ],
     "scripts":{
         "postVersion":"package set location='gpickin/cbcms-BABIPCameraJPEGSaveAndDisplay#v`package version`'",
