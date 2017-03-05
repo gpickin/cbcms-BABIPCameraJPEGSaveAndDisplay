@@ -1,0 +1,37 @@
+{
+    "name":"ContentBox IP Camera Jpeg Save and Display Widget Module",
+    "version":"1.1.0",
+    "location":"gpickin/cbcms-BABIPCameraJPEGSaveAndDisplay#v1.1.0",
+    "author":"Gavin Pickin",
+    "homepage":"https://github.com/gpickin/cbcms-BABIPCameraJPEGSaveAndDisplay",
+    "documentation":"https://github.com/gpickin/cbcms-BABIPCameraJPEGSaveAndDisplay",
+    "repository":{
+        "type":"git",
+        "URL":"https://github.com/gpickin/cbcms-BABIPCameraJPEGSaveAndDisplay"
+    },
+    "bugs":"https://github.com/gpickin/cbcms-BABIPCameraJPEGSaveAndDisplay/issues",
+    "slug":"cbcms-BABTwitterEmbed",
+    "shortDescription":"Customizable ContentBox IP Camera Jpeg Save and Display Widget Module for Contentbox 3",
+    "instructions":"https://github.com/gpickin/cbcms-BABIPCameraJPEGSaveAndDisplay",
+    "type":"contentbox-modules",
+    "keywords":[
+        "Twitter",
+        "Widget",
+        "Embed",
+        "Timeline",
+        "Social",
+        "Social Media"
+    ],
+    "scripts":{
+        "postVersion":"package set location='gpickin/cbcms-BABIPCameraJPEGSaveAndDisplay#v`package version`'",
+        "onRelease":"publish",
+        "postPublish":"!git push origin master && !git push origin master --tags"
+    },
+    "private":false,
+    "license":[
+        {
+            "type":"MIT",
+            "URL":"https://github.com/gpickin/cbcms-BABIPCameraJPEGSaveAndDisplay/blob/master/LICENSE"
+        }
+    ]
+}
